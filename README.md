@@ -1,3 +1,5 @@
+![](/graphics/te-logo-clr.jpg "TE Logo")
+
 # Python for TE
 
 ## Getting started
