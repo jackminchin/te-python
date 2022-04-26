@@ -75,7 +75,7 @@
 \end{itemize}
 \end{frame}
 
-\section{Example 1}
+\section{Example 1: Whitbread}
 
 \begin{frame}{Example 1: Whitbread Outputs (Basic)}
 
@@ -123,7 +123,7 @@
 \end{frame}
 
 
-\section{Example 2}
+\section{Example 2: Country Reports}
 
 \begin{frame}{Example 2: Country Report Generation (Advanced)}
 
@@ -167,9 +167,62 @@
 \textbf{Pipeline method:} 10 minutes + time to write custom text (1 day?).
 
 \end{block}
-
-
 \end{frame}
+
+\section{Example 3: SweRe}
+
+\begin{frame}{Sweden Regional TSA PowerPoints}
+
+\begin{itemize}
+	\item Creation of 8 regional TSA reports in PowerPoint. The text and graphics are entirely boilerplate. 
+	\item Using Python and a package called python-pptx, the code takes the regular output from the Excel model file and outputs the reports in .pptx and PDF.
+	\begin{block}{Time saving}
+
+\textbf{Manual method:} Multiple days \newline
+\textbf{Pipeline method:} 40 seconds
+
+\end{block}
+\end{itemize}
+	
+\end{frame}
+
+\section{Example 4: APF}
+
+\begin{frame}{APF IATA Data Inputs}
+
+\begin{itemize}
+ 	\item We receive a monthly 2020 - To Date data file for PAX and RPK figures from IATA. 
+ 	\item It is in a long form structure with full country names.
+ 	\item Process:
+ 	\begin{enumerate}
+ 		\item Receive input files
+ 		\item Convert to wide form, change country names to model codes.
+ 		\item Extrapolate to the end of the current quarter.
+ 		\item Export readin file for model.	
+ 	\end{enumerate}
+ 	\item Uses Python notebooks.
+
+\end{itemize}
+	
+\end{frame}
+
+
+\begin{frame}{APF Automated Checks}
+
+\begin{itemize}
+	\item The number of variables in the APF model mean that it is impossible to check each variable series manually.
+	\item We can load an extract from APF and automatically run tests, e.g:
+	\begin{enumerate}
+	\item Ensure no negative values.
+	\item Ensure that current release is with $x \%$ of previous release.
+	\item Ensure that PAXALL (sum of bilateral indicators) is not greater than PAX (total pax from IATA)
+	\end{enumerate}
+	\end{itemize}
+
+	
+\end{frame}
+
+
 
 
 
