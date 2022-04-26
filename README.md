@@ -1,4 +1,4 @@
-![](/graphics/te-logo-clr.jpg "TE Logo")
+<img src="/graphics/te-logo-clr.jpg" width="200">
 
 # Python for TE
 
