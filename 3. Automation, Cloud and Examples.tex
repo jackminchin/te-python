@@ -1,0 +1,105 @@
+%%
+% Please see https://bitbucket.org/rivanvx/beamer/wiki/Home for obtaining beamer.
+%%
+\documentclass[aspectratio=169]{beamer}
+\usetheme{Antibes}
+\usepackage{xcolor}
+\mode<presentation>
+
+\useoutertheme{miniframes} 
+\useinnertheme{circles}
+
+\definecolor{primary}{HTML}{003469}
+\definecolor{secondary}{HTML}{003469}
+\definecolor{tertiary}{HTML}{00addc}
+
+
+\setbeamercolor{titlelike}{bg=white,fg=primary}
+
+\setbeamercolor{palette primary}{bg=tertiary,fg=white}
+\setbeamercolor{palette secondary}{bg=tertiary,fg=white}
+\setbeamercolor{palette tertiary}{bg=secondary,fg=white}
+\setbeamercolor{structure}{fg=secondary} % itemize, enumerate, etc
+\setbeamercolor{section in toc}{fg=secondary} % TOC sections
+% Override palette coloring with secondary
+\setbeamercolor{subsection in head/foot}{bg=tertiary,fg=white}
+\usepackage{natbib}
+\bibliographystyle{unsrtnat}
+\setcitestyle{authoryear,open={(},close={)}}
+\usepackage{csquotes}
+\usepackage{hyperref}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    filecolor=black,      
+    urlcolor=cyan,
+    pdftitle={Python, Cloud and Automation for TE: 3. Automation, Cloud and Examples},
+    }
+
+
+
+\title{\large{\textbf{Python, Cloud and Automation}} \newline\newline 3. Automation, Cloud and Examples}
+
+\author{Jack Minchin}
+\institute{Tourism Economics}
+\date{2022}
+
+\begin{document}
+
+\frame{\titlepage}
+
+\begin{frame}
+\frametitle{Table of Contents}
+\tableofcontents
+\end{frame}
+
+
+\section{Cloud Technologies}
+
+\begin{frame}{What are cloud solutions?}
+
+\begin{itemize}
+	\item At the most basic level, cloud computing is the ability to access computers that are not on local premises. 
+	\item In practise, cloud technology is an umbrella term for a variety of different computing services (file storage, compute, Platform as a Service (PaaS), cloud functions and pipelines)
+	\item There are a number of cloud providers, at OE we have access to Azure and AWS. Azure is my preferred choice because of its integration with Active Directory (Microsoft) and the more verbose naming conventions (Azure App Service vs. AWS Elastic Beanstalk)
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}{Pipelines}
+
+\begin{itemize}
+	\item Pipelines are automated tasks that run in the cloud they can be triggered by pushing to a git repository, or through an API call.
+	\item There are number of providers that offer pipelines but I have been using CircleCI because of their free tier. 
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Example 1: Whitbread Outputs}
+
+\begin{itemize}
+	\item Whitbread take a very basic quarterly breakdown of some GTS and Macro model indicators.
+	\item The process is:
+	\begin{enumerate}
+		\item Run the macro and GTS extract
+		\item Update the links in the model file
+		\item Copy the output sheets into a new workbook. 
+		\item Break links and save.
+	\end{enumerate}
+	\item Manual process time 40 minutes - 1 hour.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Creating a pipeline}
+
+Trigger: 
+	
+\end{frame}
+
+
+	
+
+
+
+
+\end{document}
