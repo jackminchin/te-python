@@ -1,1 +1,63 @@
-<mxfile host="app.diagrams.net" modified="2022-04-26T09:37:12.942Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" version="17.4.6" etag="0mrwt3v6ql5LDCl4R7Pk" type="github"><diagram id="wL3qZZmEXnX5-HAdPawP">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-04-26T09:40:01.023Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" etag="oacaQtmdAnou26tegLZ6" version="17.4.6" type="github">
+  <diagram id="wL3qZZmEXnX5-HAdPawP" name="Page-1">
+    <mxGraphModel dx="946" dy="562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="TZ-0zZZuvht7e0PqgJ2t-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TZ-0zZZuvht7e0PqgJ2t-2" target="TZ-0zZZuvht7e0PqgJ2t-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TZ-0zZZuvht7e0PqgJ2t-2" value="Microsoft Form submitted with date and input files." style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="90" y="80" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="TZ-0zZZuvht7e0PqgJ2t-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TZ-0zZZuvht7e0PqgJ2t-3" target="TZ-0zZZuvht7e0PqgJ2t-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TZ-0zZZuvht7e0PqgJ2t-3" value="Input file uploaded to Azure" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="80" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TZ-0zZZuvht7e0PqgJ2t-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TZ-0zZZuvht7e0PqgJ2t-5" target="TZ-0zZZuvht7e0PqgJ2t-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TZ-0zZZuvht7e0PqgJ2t-5" value="Country report generator started" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="230" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TZ-0zZZuvht7e0PqgJ2t-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TZ-0zZZuvht7e0PqgJ2t-7" target="TZ-0zZZuvht7e0PqgJ2t-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TZ-0zZZuvht7e0PqgJ2t-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TZ-0zZZuvht7e0PqgJ2t-7" target="TZ-0zZZuvht7e0PqgJ2t-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TZ-0zZZuvht7e0PqgJ2t-7" value="Load in the data" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="380" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TZ-0zZZuvht7e0PqgJ2t-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TZ-0zZZuvht7e0PqgJ2t-10" target="TZ-0zZZuvht7e0PqgJ2t-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="590" y="280" />
+              <mxPoint x="140" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TZ-0zZZuvht7e0PqgJ2t-10" value="Create the boilerplate text and graphics for each country" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="530" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TZ-0zZZuvht7e0PqgJ2t-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TZ-0zZZuvht7e0PqgJ2t-13" target="TZ-0zZZuvht7e0PqgJ2t-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TZ-0zZZuvht7e0PqgJ2t-13" value="Generate PDF report and save for each country" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="80" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TZ-0zZZuvht7e0PqgJ2t-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TZ-0zZZuvht7e0PqgJ2t-16" target="TZ-0zZZuvht7e0PqgJ2t-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TZ-0zZZuvht7e0PqgJ2t-16" value="ZIP finished reports" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="230" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TZ-0zZZuvht7e0PqgJ2t-18" value="Upload to Azure and email download link." style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="380" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
