@@ -75,7 +75,9 @@
 \end{itemize}
 \end{frame}
 
-\begin{frame}{Example 1: Whitbread Outputs}
+\section{Example 1}
+
+\begin{frame}{Example 1: Whitbread Outputs (Basic)}
 
 \begin{itemize}
 	\item Whitbread take a very basic quarterly breakdown of some GTS and Macro model indicators.
@@ -92,9 +94,83 @@
 
 \begin{frame}{Creating a pipeline}
 
-Trigger: 
-	
+\begin{figure}
+\centering
+	\includegraphics[width=0.7\linewidth]{graphics/WhitbreadPipeline.png}
+\end{figure}	
+
+
 \end{frame}
+
+
+
+\begin{frame}{Languages \& Technologies Used}
+
+\begin{itemize}
+	\item Python - for running some of the orchestration
+	\item PowerShell - Interacting with Windows \& Excel
+	\item Azure Storage - storing the database files
+	\item Git - Managing the project and codebase
+	\item CircleCI YAML - Writing the pipelines steps
+\end{itemize}	
+
+\begin{block}{Time saving}
+	\textbf{Manual method:} 1 hour. \newline
+	\textbf{Pipeline method:} 8 minutes
+\end{block}
+
+
+\end{frame}
+
+
+\section{Example 2}
+
+\begin{frame}{Example 2: Country Report Generation (Advanced)}
+
+\begin{itemize}
+	\item The country report generator create $\sim$ 40 PDF reports with text and plots. 
+	\item The manual process:
+	\begin{enumerate}
+		\item Creation of input file.
+		\item Load excel file for each report.
+		\item Update the links in each excel file.
+		\item Rewrite boiler plate text to reflect new data.
+		\item Fix plots where necessary.
+		\item Write custom commentary.
+		\item Save to PDF.
+	\end{enumerate}
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}{Creating a pipeline}
+\begin{figure}
+\centering
+\includegraphics[width=0.7\linewidth]{graphics/CountryReportGenerator.drawio.png}	
+\end{figure}
+
+\end{frame}
+
+\begin{frame}{Languages \& Technologies Used}
+\begin{itemize}
+	\item Python - for orchestration, creating text and plots.
+	\item Azure Storage - storing the input and output files
+	\item Azure Functions - triggering the process when a new input file is added.
+	\item Node.JS - application architecture and PDF generation.
+	\item Git - Managing the project and codebase
+	\item CircleCI YAML - Writing the pipelines steps.
+\end{itemize}	
+
+\begin{block}{Time saving}
+
+\textbf{Manual method:} 3 people 3 days. \newline
+\textbf{Pipeline method:} 10 minutes + time to write custom text (1 day?).
+
+\end{block}
+
+
+\end{frame}
+
 
 
 	
