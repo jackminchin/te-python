@@ -95,6 +95,53 @@
 
 \end{frame}
 
+
+\begin{frame}{Setting up a pipeline}
+
+\begin{columns}
+	\begin{column}{0.4\textwidth}
+		\begin{itemize}
+			\item When using circleci, you define pipelines in a text format called YAML.
+			\item This file will define the type of machine that should be created and the steps that the pipeline will include.
+			\item Sometimes, it will also include how the pipeline will be triggered.
+		\end{itemize}
+	\end{column}
+	
+	\begin{column}{0.5\textwidth}
+		\begin{figure}
+		\centering
+		\includegraphics[scale=0.21]{graphics/pipeline-yaml-example.png}	
+	\end{figure}
+	\end{column}	
+\end{columns}
+
+
+
+
+			
+\end{frame}
+
+\begin{frame}{A completed pipeline}
+\includegraphics[scale=0.3]{graphics/pipeline-example}
+
+\end{frame}
+
+\begin{frame}{Some considerations}
+\begin{itemize}
+	\item Pipelines do not only run Python, and many cases Python isn't the best tool to use for orchestrating pipelines. The base level for interacting with pipelines is the command line meaning 99\% of tasks can be acheived.
+	\item Any coding language can be used, and there will be a solution allow most programs to be interacted with:
+	\begin{itemize}
+	\item Excel $\rightarrow$ Powershell
+	\item File structure changes $\rightarrow$ Powershell
+	\item Stata $\rightarrow$ Do files
+	\item EViews $\rightarrow$ Scripts
+	\item OE Models $\rightarrow$ MDL Command line tool
+	\end{itemize}
+\end{itemize}	
+\end{frame}
+
+
+
 \section{Example 1: Whitbread}
 
 \begin{frame}{Example 1: Whitbread Outputs (Basic)}
