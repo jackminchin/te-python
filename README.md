@@ -15,7 +15,8 @@ For an introduction to using Python see, [Getting Started with Python](https://d
 ## Examples and Projects
 
 1. [Introduction to Python](/Python%20for%20TE%.ipynb)
-2. [Plotting](/examples/plotting.ipynb)
+2. [Using Pandas](/examples/pandas.ipynb)
+3. [Plotting](/examples/plotting.ipynb)
 
 ## To Do
 - Index of packages and their use cases. 
