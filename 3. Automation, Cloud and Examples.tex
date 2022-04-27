@@ -67,12 +67,32 @@
 
 \end{frame}
 
+\begin{frame}{Some examples}
+
+\begin{itemize}
+	\item \textbf{Azure Portal} The Azure portal is a website where you can manage cloud products.
+	\item \textbf{Azure Storage Accounts / Blob Storage} Storage accounts allow the upload and storage of files in the cloud. Blobs (or files) can be downloaded from the Azure Portal or programmatically.
+	\item \textbf{Virtual Machines} VMs are computers that run in the cloud they can be used to run application or speed up run times if you are dealing with large datasets, you can interact them with the command line (SSH) or remote desktop (if the VM is running windows)
+\end{itemize}
+	
+\end{frame}
+
+
+
 \begin{frame}{Pipelines}
 
 \begin{itemize}
 	\item Pipelines are automated tasks that run in the cloud they can be triggered by pushing to a git repository, or through an API call.
+	\item In simple terms, they take an ordered set of commands and execute them on a remote virtual machine, the machine is set up specifically for the task and then killed immediately after the pipeline is complete.
 	\item There are number of providers that offer pipelines but I have been using CircleCI because of their free tier. 
 \end{itemize}
+
+\begin{figure}
+\centering
+\includegraphics[scale=0.6]{graphics/pipeline-process.png}	
+\end{figure}
+
+
 \end{frame}
 
 \section{Example 1: Whitbread}

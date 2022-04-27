@@ -20,6 +20,4 @@ For an introduction to using Python see, [Getting Started with Python](https://d
 
 ## To Do
 - Index of packages and their use cases. 
-- Add more about what Azure is.
-- Explain what CircleCI
 - Color code the flow chart steps to make it easier to follow.
