@@ -12,6 +12,11 @@ For an introduction to using Python see, [Getting Started with Python](https://d
 2. [Getting started with Python](/2.%20Getting%20started%20with%20Python.pdf)
 3. [Automation, Cloud and Examples](/3.%20Automation%2C%20Cloud%20and%20Examples.pdf)
 
+## Examples and Projects
+
+1. [Introduction to Python](/Python%20for%20TE%.ipynb)
+2. [Plotting](/examples/plotting.ipynb)
+
 ## To Do
 - Index of packages and their use cases. 
 - Add more about what Azure is.
