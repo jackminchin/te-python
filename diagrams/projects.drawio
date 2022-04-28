@@ -1,1 +1,52 @@
-<mxfile host="app.diagrams.net" modified="2022-04-28T09:09:26.929Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" version="17.4.6" etag="RflSt0u0grSvybZALEKj" type="github"><diagram id="jJm0iM698v4D5Nr05r-G">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-04-28T09:17:29.089Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" etag="wmLs69_sFdkpifEsMqfb" version="17.4.6" type="github">
+  <diagram id="jJm0iM698v4D5Nr05r-G" name="Page-1">
+    <mxGraphModel dx="946" dy="562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="oDcGQZ28C4UExTZZchBB-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oDcGQZ28C4UExTZZchBB-1" target="oDcGQZ28C4UExTZZchBB-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oDcGQZ28C4UExTZZchBB-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=8;" edge="1" parent="1" source="oDcGQZ28C4UExTZZchBB-1" target="oDcGQZ28C4UExTZZchBB-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oDcGQZ28C4UExTZZchBB-1" value="&lt;b&gt;Data Processing&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=13;" vertex="1" parent="1">
+          <mxGeometry x="80" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oDcGQZ28C4UExTZZchBB-2" value="&lt;b&gt;QA / Testing&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=13;" vertex="1" parent="1">
+          <mxGeometry x="180" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oDcGQZ28C4UExTZZchBB-3" value="&lt;b&gt;Analysis&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=13;" vertex="1" parent="1">
+          <mxGeometry x="50" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oDcGQZ28C4UExTZZchBB-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="oDcGQZ28C4UExTZZchBB-2" target="oDcGQZ28C4UExTZZchBB-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oDcGQZ28C4UExTZZchBB-5" value="&lt;b&gt;Excel outputs&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oDcGQZ28C4UExTZZchBB-7" value="&lt;b&gt;Data ingestion&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size: 8px&quot;&gt;(STR, IATA)&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;arcSize=13;" vertex="1" parent="1">
+          <mxGeometry x="30" y="135" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oDcGQZ28C4UExTZZchBB-9" value="&lt;b&gt;Large &amp;amp; Hi-Freq Data&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size: 8px&quot;&gt;(Monthly arrivals, NEAR, etc)&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;arcSize=13;" vertex="1" parent="1">
+          <mxGeometry x="150" y="135" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="oDcGQZ28C4UExTZZchBB-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=12;" edge="1" parent="1" source="oDcGQZ28C4UExTZZchBB-16" target="oDcGQZ28C4UExTZZchBB-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oDcGQZ28C4UExTZZchBB-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="oDcGQZ28C4UExTZZchBB-16" target="oDcGQZ28C4UExTZZchBB-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oDcGQZ28C4UExTZZchBB-16" value="&lt;b&gt;Report Generation&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="320" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oDcGQZ28C4UExTZZchBB-17" value="&lt;b&gt;Mass Reporting&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size: 8px&quot;&gt;(GTS, GCT, Sweden)&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;arcSize=13;" vertex="1" parent="1">
+          <mxGeometry x="270" y="135" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oDcGQZ28C4UExTZZchBB-20" value="&lt;b&gt;Self-service reports&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size: 8px&quot;&gt;(Hotel market overview, etc)&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;arcSize=13;" vertex="1" parent="1">
+          <mxGeometry x="390" y="135" width="100" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
