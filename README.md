@@ -18,6 +18,11 @@ For an introduction to using Python see, [Getting Started with Python](https://d
 2. [Using Pandas](/examples/pandas.ipynb)
 3. [Plotting](/examples/plotting.ipynb)
 
+## Where can we use Python, Automation & Cloud Technologies?
+
+![Use Cases](/graphics/projects.drawio.png)
+
+
 ## To Do
 - Index of packages and their use cases. 
 - Color code the flow chart steps to make it easier to follow.
